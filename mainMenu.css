@@ -1,0 +1,13 @@
+/*  hide unwanted elements */
+
+#appMenu-zoom-controls,
+#appMenu-edit-controls,
+#appMenu-zoom-controls+toolbarseparator,
+#appMenu-edit-controls+toolbarseparator,
+#appMenu-open-file-button,
+#appMenu-save-file-button,
+#appMenu-print-button,
+#appMenu-print-button+toolbarseparator,
+#context-searchselect {
+    display: none !important;
+}

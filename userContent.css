@@ -1,0 +1,14 @@
+* {
+    scrollbar-color: #3f3f3f #000 !important;
+}
+
+@-moz-document url-prefix("about:"),
+@-moz-document url-prefix("chrome://mozapps/content/extensions/aboutaddons.html") {
+    window,
+    page,
+    html,
+    .main-content,
+    scrollbar {
+        scrollbar-color: #3f3f3f #000 !important;
+    }
+}

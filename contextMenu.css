@@ -1,0 +1,14 @@
+/* hide unwanted elements */
+
+#context-stop,
+#context-bookmarkpage,
+#context-navigation,
+#context-back,
+#context-forward,
+#context-reload,
+#context-sep-sendpagetodevice,
+#context-sendpagetodevice,
+#context_sendTabToDevice_separator,
+#context_sendTabToDevice {
+    display: none !important;
+}
