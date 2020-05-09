@@ -1,5 +1,4 @@
 /* show x button on tabs, when hovering only */
-
 .tabbrowser-tab:not(:hover) .tab-close-button {
     display: none;
 }

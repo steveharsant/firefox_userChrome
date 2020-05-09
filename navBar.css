@@ -1,5 +1,4 @@
 /* hide unwanted elements */
-
 .titlebar-spacer,
 .urlbar-page-action,
 #nav-bar-overflow-button,
@@ -7,16 +6,12 @@
     display: none !important;
 }
 
-
 /* auto hide tracking protection */
-
 #tracking-protection-icon-container {
     display: none;
 }
 
-
 /* tighten space around ssl padlock */
-
 #identity-box {
     margin: 0;
     padding: 0;
@@ -26,24 +21,18 @@
     margin-left: -10px;
 }
 
-
 /* hide main menu */
-
 #PanelUI-button {
     display: none !important;
 }
 
-
 /* colour urls in dropdown bar */
-
 .urlbarView {
     --urlbar-popup-url-color: #7e7e7e;
 }
 
-
-/* auto hide forward/back buttons */
-
-:root:not([customizing]) #nav-bar toolbarbutton {
+/* auto hide forward/back buttons - Uncomment to activate */
+/* :root:not([customizing]) #nav-bar toolbarbutton {
     margin-left: -28px !important;
     opacity: 0 !important;
     transform: scale(.85, .85) !important;
@@ -58,4 +47,4 @@
     opacity: 1 !important;
     margin-left: 0 !important;
     pointer-events: auto !important;
-}
+} */
