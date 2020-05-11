@@ -3,6 +3,8 @@
 #PersonalToolbar {
     --uc-bm-height: 24px;
     --uc-bm-padding: 10px;
+    /* Uncomment to fix alignment on Windows machines */
+    /* padding: 4px 6px !important; */
 }
 
 #PersonalToolbar:not([customizing]) {
