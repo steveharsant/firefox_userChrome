@@ -47,7 +47,7 @@ menu:hover,
 menu[open="true"],
 menuitem[_moz-menuactive="true"] {
     -moz-appearance: none !important;
-    padding: 7.5px 0px 7.5px 0px !important;
+    padding: 9.5px 0px 9.5px 0px !important;
     background-color: #414141 !important;
 }
 
