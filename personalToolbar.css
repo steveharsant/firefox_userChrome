@@ -9,7 +9,7 @@
 }
 
 #PersonalToolbar:not([customizing]) {
-    margin-bottom: calc(2px - var(--uc-bm-height) - 2 * var(--uc-bm-padding));
+    margin-bottom: calc(3px - var(--uc-bm-height) - 2 * var(--uc-bm-padding));
     transform: rotateX(90deg);
     transform-origin: top;
     transition: transform 135ms linear 600ms !important;
